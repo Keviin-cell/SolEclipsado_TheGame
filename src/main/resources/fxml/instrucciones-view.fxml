@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.MenuController">
+   <children>
+      <ImageView fitHeight="708.0" fitWidth="493.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/fondo-nieve-arboles-recortada.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="menuButton" layoutX="168.0" layoutY="609.0" mnemonicParsing="false" onAction="#changeScene" prefHeight="56.0" prefWidth="157.0" styleClass="button-19" stylesheets="@../styles/buttonStyles.css" text="REGRESAR" />
+      <Label layoutX="58.0" layoutY="177.0" prefHeight="99.0" prefWidth="405.0" styleClass="title" stylesheets="@../styles/labelStyles.css" text="INSTRUCCIONES" />
+      <Pane layoutY="267.0" prefHeight="300.0" prefWidth="493.0">
+         <children>
+            <Label layoutX="-4.0" prefHeight="54.0" prefWidth="499.0" styleClass="textc" stylesheets="@../styles/labelStyles.css" text="Escribe las palabras que aparecen en pantalla " />
+            <Label layoutY="27.0" prefHeight="54.0" prefWidth="493.0" styleClass="textc" stylesheets="@../styles/labelStyles.css" text="exactamente como se muestran y presiona" />
+            <Label layoutX="1.0" layoutY="54.0" prefHeight="54.0" prefWidth="493.0" styleClass="textc" stylesheets="@../styles/labelStyles.css" text="Enter antes de que se acabe el tiempo." />
+            <Label layoutX="4.0" layoutY="205.0" prefHeight="54.0" prefWidth="485.0" styleClass="textc" stylesheets="@../styles/labelStyles.css" text="Si cometes un error o el tiempo llega a cero, " />
+            <Label layoutX="-1.0" layoutY="117.0" prefHeight="54.0" prefWidth="499.0" styleClass="textc" stylesheets="@../styles/labelStyles.css" text="Cada 5 niveles el tiempo se reduce," />
+            <Label layoutX="3.0" layoutY="144.0" prefHeight="54.0" prefWidth="493.0" styleClass="textimpor" stylesheets="@../styles/labelStyles.css" text="¡Pon a prueba tu velocidad y precisión!" />
+            <Label layoutX="3.0" layoutY="232.0" prefHeight="54.0" prefWidth="493.0" styleClass="textimpor" stylesheets="@../styles/labelStyles.css" text="¡El juego termina!" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

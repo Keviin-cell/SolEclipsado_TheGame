@@ -1,0 +1,36 @@
+.title{
+    -fx-text-fill: #00E5FF;
+    -fx-font-family: "Russo One";
+    -fx-font-size: 45px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, black, 4, 0.5, 0, 0);
+}
+
+.title-game{
+    -fx-text-fill: #00E5FF;
+    -fx-font-family: "Russo One";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, black, 4, 0.5, 0, 0);
+}
+
+.textc{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Russo One";
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 0.8px;
+    -fx-padding: 13 16 13 16;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 4, 0.5, 0, 0);
+}
+
+.textimpor{
+    -fx-text-fill: #00E5FF;
+    -fx-font-family: "Russo One";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 4, 0.5, 0, 0);
+}
+
